@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -30,7 +31,14 @@ const Projects = () => {
   <div className="m-3">
     <h4 className="font-bold pt-3">Entry Level Certification</h4>
     <p className="py-3 font-bold">Product Research conducted for Uber</p>
-    <img className="pb-3" src={"/entrylevel.png"} alt="" />
+    {/* <img className="pb-3" src={"/entrylevel.png"} alt="" /> */}
+    <Image
+  src="/entrylevel.png"
+  alt="Entry Level logo"
+  width={500}   // Adjust as needed
+  height={300}  // Adjust as needed
+  className="pb-3"
+/>
   </div>
 </div>
 
@@ -45,7 +53,14 @@ const Projects = () => {
                 <div className="m-3">
                   <h4 className="font-bold pt-3">Fabs Logistics</h4>
                   <p className="py-3 font-bold"> Story Mapping for Fabs Logistics</p>
-                  <img className="pb-3" src={"/fabpresentation.png"} alt="" />
+                  {/* <img className="pb-3" src={"/fabpresentation.png"} alt="" /> */}
+  <Image
+  src="/fabpresentation.png"
+  alt="fab logo"
+  width={500}   // Adjust as needed
+  height={300}  // Adjust as needed
+  className="pb-3"
+/>
                 </div>
               </div>
             </Link>
@@ -58,7 +73,14 @@ const Projects = () => {
               <div className="m-3">
                 <h4 className="font-bold pt-3">Glow fitness</h4>
                 <p className="py-3 font-bold"> product proposal</p>
-                <img className="pb-3" src={"/glow.png"} alt="" />
+                {/* <img className="pb-3" src={"/glow.png"} alt="" /> */}
+                  <Image
+  src="/glow.png"
+  alt="glow logo"
+  width={500}   // Adjust as needed
+  height={300}  // Adjust as needed
+  className="pb-3"
+/>
               </div>
             </div>
             </Link>
@@ -73,7 +95,14 @@ const Projects = () => {
                 <div className="m-3">
                   <h4 className="font-bold pt-3">A3Spaces</h4>
                   <p className="py-3 font-bold"> Management Consulting website</p>
-                  <img className="pb-3" src={"/a3.png"} alt="" />
+                  {/* <img className="pb-3" src={"/a3.png"} alt="" /> */}
+                    <Image
+  src="/a3.png"
+  alt="a3 logo"
+  width={500}   // Adjust as needed
+  height={300}  // Adjust as needed
+  className="pb-3"
+/>
                 </div>
               </div>
             </Link>
@@ -87,7 +116,14 @@ const Projects = () => {
                   <h4 className="font-bold pt-3">The Imaginarium Gallery</h4>
                   <p className=" font-bold"> Web App for images</p>
                   <p>login: user@example.com password:12345</p>
-                  <img className="pb-3" src={"/imaginarium.png"} alt="" />
+                  {/* <img className="pb-3" src={"/imaginarium.png"} alt="" /> */}
+                    <Image
+  src="/imaginarium.png"
+  alt="imaginarium logo"
+  width={500}   // Adjust as needed
+  height={300}  // Adjust as needed
+  className="pb-3"
+/>
                 </div>
               </div>
             </Link>
@@ -97,7 +133,14 @@ const Projects = () => {
                 <div className="m-3">
                   <h4 className="font-bold pt-3">Moviebox</h4>
                   <p className="py-3 font-bold"> Movie Web App</p>
-                  <img className="pb-3" src={"/moviebox.png"} alt="" />
+                  {/* <img className="pb-3" src={"/moviebox.png"} alt="" /> */}
+                    <Image
+  src="/moviebox.png"
+  alt="moviebox logo"
+  width={500}   // Adjust as needed
+  height={300}  // Adjust as needed
+  className="pb-3"
+/>
                 </div>
               </div>
             </Link>
@@ -106,7 +149,14 @@ const Projects = () => {
                 <div className="m-3">
                   <h4 className="font-bold pt-3">Fab Logistics</h4>
                   <p className="py-3 font-bold"> Logistics Web App</p>
-                  <img className="pb-3" src={"/fabimg.png"} alt="" />
+                  {/* <img className="pb-3" src={"/fabimg.png"} alt="" /> */}
+                    <Image
+  src="/fabimg.png"
+  alt="fab img logo"
+  width={500}   // Adjust as needed
+  height={300}  // Adjust as needed
+  className="pb-3"
+/>
                 </div>
               </div>
             </Link>
@@ -119,7 +169,14 @@ const Projects = () => {
                 <div className="m-3">
                   <h4 className="font-bold pt-3">Reni Account</h4>
                   <p className="py-3 font-bold">Reni Landing Page</p>
-                  <img className="pb-3" src={"/reni.png"} alt="" />
+                  {/* <img className="pb-3" src={"/reni.png"} alt="" /> */}
+                    <Image
+  src="/reni.png"
+  alt="reni logo"
+  width={500}   // Adjust as needed
+  height={300}  // Adjust as needed
+  className="pb-3"
+/>
                 </div>
               </div>
             </Link>
@@ -128,7 +185,14 @@ const Projects = () => {
                 <div className="m-3">
                   <h4 className="font-bold pt-3">Xenda</h4>
                   <p className="py-3 font-bold">Xenda Web App Landing Page </p>
-                  <img className="pb-3" src={"/xenda.png"} alt="" />
+                  {/* <img className="pb-3" src={"/xenda.png"} alt="" /> */}
+                    <Image
+  src="/xenda.png"
+  alt="xenda logo"
+  width={500}   // Adjust as needed
+  height={300}  // Adjust as needed
+  className="pb-3"
+/>
                 </div>
               </div>
             </Link>
@@ -137,7 +201,14 @@ const Projects = () => {
                 <div className="m-3">
                   <h4 className="font-bold pt-3">Figma</h4>
                   <p className="py-3 font-bold">Landing Page</p>
-                  <img className="pb-3" src={"/figma.png"} alt="" />
+                  {/* <img className="pb-3" src={"/figma.png"} alt="" /> */}
+                    <Image
+  src="/figma.png"
+  alt="figma logo"
+  width={500}   // Adjust as needed
+  height={300}  // Adjust as needed
+  className="pb-3"
+/>
                 </div>
               </div>
             </Link>

@@ -241,6 +241,7 @@
 // export default About;
 
 import React from "react";
+import Image from "next/image";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { FaLinkedin } from "react-icons/fa";
@@ -265,7 +266,7 @@ const About = () => {
     <div className="mb-5 text-purple dark:bg-black dark:text-white">
       <Navbar />
       <section className="pt-[150px]">
-        <div className="about mx-5">
+        <div className="about mx-5 py-7">
           <h5 className="font-bold lg:text-2xl">About</h5>
           <div className="flex flex-col-reverse lg:flex-row justify-between gap-5">
             <div>
@@ -305,13 +306,21 @@ const About = () => {
               </div>
             </div>
             <div>
-              <img className="h-[28rem] w-[90rem]" src="/self.jpg" alt="" />
+             <Image
+  src="/self.jpg"
+  alt=""
+  className="h-[28rem] w-[90rem]"
+  width={1440}
+  height={448}
+/>
+{/* image style changed */}
+           
             </div>
           </div>
         </div>
 
         <div>
-          <p className="m-5 lg:py-14 text-sm lg:text-base">
+          <p className="m-5 lg:py-8 text-sm lg:text-base">
             I am a certified scrum master with a multifaceted background that
             seamlessly integrates key areas of expertise in product management,
             frontend development, and technical product management. My journey

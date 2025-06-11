@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from 'next/image';
 import Navbar from "./Navbar";
 import Footer from "./Footer";
 import { FaArrowRight } from "react-icons/fa";
@@ -23,7 +24,13 @@ const Services = () => {
       <section className="m-5 pt-[12px] ">
         <div className="">
           <div className="flex justify-center items-center my-7">
-            <img src="/PM.jpg" alt="" />
+            {/* <img src="/PM.jpg" alt="" /> */}
+            <Image
+  src="/PM.jpg"
+  alt="PM image"
+  width={700}   // Replace with actual or desired width
+  height={500}  // Replace with actual or desired height
+/>
           </div>
           <p className=" text-lg text-center">
             Welcome to my corner of the internet! I am passionate and an
@@ -108,7 +115,14 @@ const Services = () => {
                       </p>
                     </div>
                   </div>
-                  <img className="" src="/entrylevel.png" alt="" />
+                  {/* <img className="" src="/entrylevel.png" alt="" /> */}
+                  <Image
+  src="/entrylevel.png"
+  alt="Entry Level logo"
+  width={500}   // Adjust as needed
+  height={300}  // Adjust as needed
+  className=""
+/>
                 </div>
               </Link>
               <Link
@@ -137,7 +151,14 @@ const Services = () => {
                       </p>
                     </div>
                   </div>
-                  <img className="" src="/fabpresentation.png" alt="" />
+                  {/* <img className="" src="/fabpresentation.png" alt="" /> */}
+                  <Image
+  src="/fabpresentation.png"
+  alt="Entry Level logo"
+  width={500}   // Adjust as needed
+  height={300}  // Adjust as needed
+  className=""
+/>
                 </div>
               </Link>
 
@@ -195,11 +216,18 @@ const Services = () => {
             got you covered.
           </p>
           <div className="flex justify-center items-center my-7">
-            <img
+            {/* <img
               className="h-[30rem] w-[60rem] rounded-3xl"
               src="/frontendimg.jpg"
               alt=""
-            />
+            /> */}
+            <Image
+  src="/frontendimg.jpg"
+  alt="Frontend development preview"
+  width={600}   // 60rem = 960px
+  height={500}  // 30rem = 480px
+  className=" rounded-3xl"
+/>
           </div>
 
           <h4 className="pt-5 pb-5 font-bold">Services</h4>

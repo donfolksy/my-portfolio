@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import { GiHamburgerMenu } from "react-icons/gi";
@@ -41,7 +42,14 @@ const Navbar = () => {
   return (
     <div className="relative">
       <div className="fixed right-0 left-0 top-0 bg-purple/40 dark:bg-black my-5 mx-3 rounded-3xl py-5 px-10 lg:px-32 flex justify-between items-center z-50">
-        <img src="/memoji 2.png" alt="Logo" className="w-[70px] h-[70px]" />
+        {/* <img src="/memoji 2.png" alt="Logo" className="w-[70px] h-[70px]" /> */}
+        <Image
+  src="/memoji 2.png"
+  alt="Logo"
+  width={70}
+  height={70}
+  className="w-[70px] h-[70px]"
+/>
 
         <ul className="text-purple dark:text-white lg:flex gap-10 cursor-pointer items-center hidden">
           <Link href="/home">

@@ -1,4 +1,5 @@
 "use client";
+import Image from 'next/image';
 import React, { useState } from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
@@ -121,11 +122,18 @@ const Homepage = () => {
           </div>
           <div>
             {" "}
-            <img
+            {/* <img
               className="[height:400px] [width:150rem]"
               src="/sunday.jpg"
               alt="my image"
-            />
+            /> */}
+            <Image
+  src="/sunday.jpg"
+  alt="my image"
+  width={2400}  // 150rem = 150 * 16px = 2400px
+  height={400}
+  className="h-[400px] w-[150rem]"
+/>
           </div>
         </div>
 
@@ -314,10 +322,6 @@ const Homepage = () => {
 
         </div>
 
-       
-
-       
-
         <div className="flex flex-col items-center p-5">
           <h1 className=" font-bold text-2xl pt-6 pb-5">
             PORTFOLIO
@@ -355,7 +359,14 @@ const Homepage = () => {
                     </div>
                   </div>
                 </div>
-                <img className="" src="/imaginarium.png" alt="" />
+                {/* <img className="" src="/imaginarium.png" alt="" /> */}
+                <Image
+  src="/imaginarium.png"
+  alt="Imaginarium logo"
+  width={500} // set an appropriate width in px
+  height={300} // set an appropriate height in px
+  className=""
+/>
               </div>
             </Link>
             <Link href={"https://fabs-logistics.vercel.app/"}>
@@ -385,7 +396,14 @@ const Homepage = () => {
                     </p>
                   </div>
                 </div>
-                <img className="" src="/fabimg.png" alt="" />
+                {/* <img className="" src="/fabimg.png" alt="" /> */}
+                <Image
+  src="/fabimg.png"
+  alt="FAB image"
+  width={500}   // adjust based on actual image or layout
+  height={300}  // adjust based on actual image or layout
+  className=""
+/>
               </div>
             </Link>
 
@@ -415,7 +433,15 @@ const Homepage = () => {
                     </p>
                   </div>
                 </div>
-                <img className="" src="/moviebox.png" alt="" />
+                {/* <img className="" src="/moviebox.png" alt="" /> */}
+
+<Image
+  src="/moviebox.png"
+  alt="MovieBox logo"
+  width={500}   // adjust width
+  height={300}  // adjust height
+  className=""
+/>
               </div>
             </Link>
             <div className="pt-7">
@@ -439,7 +465,14 @@ const Homepage = () => {
           <div className="text-sm md:text-xs flex-col flex lg:flex-row gap-10 px-20">
             <div className="flex flex-col items-center ">
               
-             <img src="/sam.jpg" className="rounded-full  w-[120px] h-[120px] mb-[5px] " alt="" />   
+             {/* <img src="/sam.jpg" className="rounded-full  w-[120px] h-[120px] mb-[5px] " alt="" />    */}
+             <Image
+  src="/sam.jpg"
+  alt="Profile photo"
+  width={120}
+  height={120}
+  className="rounded-full w-[120px] h-[120px] mb-[5px]"
+/>
               
              <h6 className="mb-6 font-bold flex flex-col items-center justify-center text-center">
   Akindunjoye Samuel <br/> Test Engineer
@@ -451,7 +484,14 @@ const Homepage = () => {
               </p>
             </div>
             <div className="flex flex-col items-center">
-            <img src="/philip.jpg" className="rounded-full  w-[120px] h-[120px] mb-[5px] " alt="" />  
+            {/* <img src="/philip.jpg" className="rounded-full  w-[120px] h-[120px] mb-[5px] " alt="" />   */}
+            <Image
+  src="/philip.jpg"
+  alt="Philip's profile photo"
+  width={120}
+  height={120}
+  className="rounded-full w-[120px] h-[120px] mb-[5px]"
+/>
             <h6 className="mb-6 font-bold flex flex-col items-center justify-center text-center">
   Esigie Phillip <br/> Direct Sales Representative
 </h6>
@@ -465,11 +505,18 @@ const Homepage = () => {
         </div>
         {/*  contact div */}
         <div className="py-7  flex flex-col items-center relative">
-          <img
+          {/* <img
             className="[height:30rem] [width:45rem] absolute bottom-0 right-0"
             src="/plastic-card.png"
             alt=""
-          />
+          /> */}
+          <Image
+  src="/plastic-card.png"
+  alt="Plastic card"
+  width={720}  // 45rem = 45 * 16px
+  height={480} // 30rem = 30 * 16px
+  className="w-[45rem] h-[30rem] absolute bottom-0 right-0"
+/>
           <h4 className="pb-12 font-bold text-2xl">GET IN TOUCH</h4>
           <p className="pb-5 flex text-center">
             Ready to discuss your project or you have any question? <br></br>
@@ -551,109 +598,235 @@ const Homepage = () => {
 >
   <SwiperSlide className="flex items-center justify-center h-full ">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-    <img src="/psm.jpg" alt="" className=" "/>
+    {/* <img src="/psm.jpg" alt="" className=" "/> */}
+    <Image
+  src="/psm.jpg"
+  alt="PSM image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>Professional Scrum Master (PSM)</p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-   <img src="/training.png" alt="" className=" "/>
+   {/* <img src="/training.png" alt="" className=" "/> */}
+   <Image
+  src="/training.png"
+  alt="Training image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>PSM Training </p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-   <img src="/dev.png" alt="" className=" "/>
+   {/* <img src="/dev.png" alt="" className=" "/> */}
+   <Image
+  src="/dev.png"
+  alt="DEV image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>Product Management </p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-    <img src="/arti.png" alt="" className=" "/>
+    {/* <img src="/arti.png" alt="" className=" "/> */}
+    <Image
+  src="/arti.png"
+  alt="PSM image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>Artificial Intelligence Micro-Certificate</p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-   <img src="/analytics.png" alt="" className=" "/>
+   {/* <img src="/analytics.png" alt="" className=" "/> */}
+   <Image
+  src="/analytics.png"
+  alt="analytics image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>Product Analytics Micro-Certificate</p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-    <img src="/led.png" alt="" className=" "/>
+    {/* <img src="/led.png" alt="" className=" "/> */}
+    <Image
+  src="/led.png"
+  alt="led image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>Product Led Growth Micro-Certification</p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-    <img src="/launch.png" alt="" className=" "/>
+    {/* <img src="/launch.png" alt="" className=" "/> */}
+    <Image
+  src="/launch.png"
+  alt="launch image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>Product Launches Micro-Certificate</p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-    <img src="/strategy.png" alt="" className=" "/>
+    {/* <img src="/strategy.png" alt="" className=" "/> */}
+    <Image
+  src="/strategy.png"
+  alt="strategy image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>Product Strategy Micro-Certificate</p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-    <img src="/roadmap.png" alt="" className=" "/>
+    {/* <img src="/roadmap.png" alt="" className=" "/> */}
+    <Image
+  src="/roadmap.png"
+  alt="roadmap image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>Product Roadmapping Micro-Certificate</p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex  items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-   <img src="/pm.png" alt="" className=" "/>
+   {/* <img src="/pm.png" alt="" className=" "/> */}
+   <Image
+  src="/pm.png"
+  alt="PM image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>Product Management</p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex  items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-    <img src="/react.png" alt="" className=" "/>
+    {/* <img src="/react.png" alt="" className=" "/> */}
+    <Image
+  src="/react.png"
+  alt="react image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>React Basics</p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex  items-center justify-center h-full">
   <div className="flex  gap-2 flex-col items-center justify-center text-center">
-    <img src="/pm1.png" alt="" className=" "/>
+    {/* <img src="/pm1.png" alt="" className=" "/> */}
+    <Image
+  src="/pm1.png"
+  alt="PM1 image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>Product Management</p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-    <img src="/pm2.png" alt="" className=" "/>
+    {/* <img src="/pm2.png" alt="" className=" "/> */}
+    <Image
+  src="/pm2.png"
+  alt="PM2 image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p> Product Management Internship</p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-   <img src="/html.png" alt="" className=" "/>
+   {/* <img src="/html.png" alt="" className=" "/> */}
+   <Image
+  src="/html.png"
+  alt="html image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>HTML5</p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-   <img src="/ai.png" alt="" className=" "/>
+   {/* <img src="/ai.png" alt="" className=" "/> */}
+   <Image
+  src="/ai.png"
+  alt="ai image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>AI for Product Management</p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-   <img src="/pac.png" alt="" className=" "/>
+   {/* <img src="/pac.png" alt="" className=" "/> */}
+   <Image
+  src="/pac.png"
+  alt="Pac image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>Product Analytics Certified</p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-   <img src="/pmb.png" alt="" className=" "/>
+   {/* <img src="/pmb.png" alt="" className=" "/> */}
+   <Image
+  src="/pmb.png"
+  alt="PSM image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>Product Management Basics</p>
   </div>
 </SwiperSlide>
 <SwiperSlide className="flex items-center justify-center h-full">
   <div className="flex gap-2 flex-col items-center justify-center text-center">
-   <img src="/plc.png" alt="" className=" "/>
+   {/* <img src="/plc.png" alt="" className=" "/> */}
+   <Image
+  src="/plc.png"
+  alt="Plc image"
+  width={500}   // Adjust based on actual size or layout needs
+  height={300}  // Adjust as needed
+  className=""
+/>
     <p>Product-Led Certified</p>
   </div>
 </SwiperSlide>

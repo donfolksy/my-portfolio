@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import React from "react";
 import Navbar from "./Navbar";
 import Footer from "./Footer";
@@ -25,11 +26,18 @@ const Contacts = () => {
       <div className="bg-purple/40 rounded-3xl  mx-3 my-14">
         <div className="lg:flex flex-row justify-around  lg:py-16 px-5  ">
           <div className=" ">
-            <img
+            {/* <img
               className="w-[550px] lg:block hidden"
-              src="/contact-img.svg "
+              src="/contact-img.svg"
               alt=""
-            />
+            /> */}
+            <Image
+  src="/contact-img.svg"
+  alt="Contact"
+  width={550}
+  height={400}
+  className="w-[550px] lg:block hidden"
+/>
             <div className=" py-5  ">
               <h4 className="font-bold text-2xl py-2">Let&apos;s talk</h4>
               <p className="pb-2 text-">

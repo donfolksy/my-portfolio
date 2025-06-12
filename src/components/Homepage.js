@@ -47,13 +47,13 @@ const Homepage = () => {
           </h2>
 
           <p className="text-center  pt-12 pb-10 text-sm lg:text-base">
-            I'm Akinlose Sunday Folorunsho, a Technical Product Manager, Scrum Master and
+            I&apos;m Akinlose Sunday Folorunsho, a Technical Product Manager, Scrum Master and
             passionate Frontend Developer. As a bridge between technical and
             business aspects, I ensure products align with strategy. In frontend
             development, I craft visually stunning websites with flawless
             functionality, turning unique visions into digital realities. My
             commitment to innovation and collaboration drives projects to new
-            heights. Let's bring your ideas to life!
+            heights. Let&apos;ss bring your ideas to life!
           </p>
           <div className="flex gap-5 pt-10 pb-12">
           <a
@@ -480,7 +480,7 @@ const Homepage = () => {
 
               <p className="text-center text-sm lg:text-sm">
                 {" "}
-                "Working with Sunday has been excellent. His technical expertise and focus on user experience have streamlined the testing process. He communicates complex ideas clearly and prioritizes key issues, helping us deliver high-quality products on time. I look forward to future collaborations!"
+                Working with Sunday has been excellent. His technical expertise and focus on user experience have streamlined the testing process. He communicates complex ideas clearly and prioritizes key issues, helping us deliver high-quality products on time. I look forward to future collaborations.
               </p>
             </div>
             <div className="flex flex-col items-center">
@@ -498,7 +498,7 @@ const Homepage = () => {
 
               <p className="text-center text-sm lg:text-sm">
                 {" "}
-                "Sunday’s expertise and clear communication have greatly supported our sales efforts. His insights and availability help us address client needs effectively, making a significant impact on our success. I look forward to continuing our collaboration."
+                Sunday&apos;s expertise and clear communication have greatly supported our sales efforts. His insights and availability help us address client needs effectively, making a significant impact on our success. I look forward to continuing our collaboration.
               </p>
             </div>
           </div>
@@ -520,7 +520,7 @@ const Homepage = () => {
           <h4 className="pb-12 font-bold text-2xl">GET IN TOUCH</h4>
           <p className="pb-5 flex text-center">
             Ready to discuss your project or you have any question? <br></br>
-            I'd love to hear from you! Contact me today to get started on your
+            I&apos;d love to hear from you! Contact me today to get started on your
             next project.
           </p>
 
@@ -568,9 +568,9 @@ const Homepage = () => {
           </div>
 
           <p className="text-xs text-center pt-16">
-            Whether you're a startup looking for a brand-new website or a
-            business seeking a redesign,<br></br> I'm here to bring your vision
-            to life. Let's collaborate and create something extraordinary
+            Whether you&apos;re a startup looking for a brand-new website or a
+            business seeking a redesign,<br></br> I&apos;m here to bring your vision
+            to life. Let&apos;s collaborate and create something extraordinary
             together.
           </p>
 

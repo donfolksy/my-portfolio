@@ -16,8 +16,8 @@ const Contacts = () => {
       <div className="  rounded-3xl bg-purple/40 mx-3 my-7 p-5">
         <h4 className="mt-5 text-sm font-bold">CONTACT</h4>
         <h1 className=" py-10 font-bold lg:text-6xl">
-          let's chat <br></br>
-          Share your brilliant idea, and together, we'll create something
+          let&apos;s chat <br></br>
+          Share your brilliant idea, and together, we&apos;ll create something
           extraordinary.
         </h1>
       </div>
@@ -31,7 +31,7 @@ const Contacts = () => {
               alt=""
             />
             <div className=" py-5  ">
-              <h4 className="font-bold text-2xl py-2">Let's talk</h4>
+              <h4 className="font-bold text-2xl py-2">Let&apos;s talk</h4>
               <p className="pb-2 text-">
                 I find fulfillment collaborating with committed individuals,
                 organizations, <br></br> and businesses who contribute to making

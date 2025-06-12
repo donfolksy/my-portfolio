@@ -37,14 +37,14 @@ const Services = () => {
             experienced product manager dedicated to creating innovative
             solutions that delight customers and drive business success. This
             website serves as a hub where you can learn more about my
-            professional journey, expertise, and the products I've had the
+            professional journey, expertise, and the products I&apos;ve had the
             privilege to work on.
           </p>
 
           <h3 className="font-bold text-lg mt-5 mb-2">My Approach</h3>
           <p className="pb-5 text-center">
             As a product manager, I believe in a customer-centric approach,
-            where empathy and data guide every decision. I'm passionate about
+            where empathy and data guide every decision. I&apos;m passionate about
             solving complex problems and translating user needs into elegant
             solutions that exceed expectations.
           </p>
@@ -79,7 +79,7 @@ const Services = () => {
           <div className="">
             <h4 className="text-lg font-bold p-3">Portfolio</h4>
             <p>
-              Explore some of the exciting projects I've been involved in as a
+              Explore some of the exciting projects I&apos;ve been involved in as a
               product manager. Each product represents a unique challenge and an
               opportunity to innovate.
             </p>
@@ -104,14 +104,14 @@ const Services = () => {
                     <div className="flex flex-col  p-5 text-center text-white items-center ">
                       <h1 className="font-bold text-3xl">Uber</h1>
                       <p className="pt-1 pb-1 text-sm">
-                        A project under Entry level,as Uber's product manager, I
+                        A project under Entry level,as Uber&apos;s product manager, I
                         validated market needs, designed prototypes, and
                         identified MVP features through research and user
                         interviews. Emphasizing convenience, cost-effectiveness,
                         reliability, and safety, the resulting user stories
-                        reflected users' interests. The process ensured a
+                        reflected users&apos; interests. The process ensured a
                         user-centric approach to product development, enhancing
-                        Uber's service effectiveness.
+                        Uber&apos;s service effectiveness.
                       </p>
                     </div>
                   </div>
@@ -211,8 +211,8 @@ const Services = () => {
           <p className="pb-5">
             I specialize in providing top-notch frontend services to help
             businesses create engaging and user-friendly web experiences.
-            Whether you're a startup looking to establish your online presence
-            or an established enterprise aiming to revamp your website, we've
+            Whether you&apos;re a startup looking to establish your online presence
+            or an established enterprise aiming to revamp your website, we&apos;ve
             got you covered.
           </p>
           <div className="flex justify-center items-center my-7">
